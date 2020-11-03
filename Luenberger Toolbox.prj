@@ -1,0 +1,136 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="1897648218" file="/home/nils/Documents/Work/PhD work/Projects/Collaborations/Industrial secondment/Background work/Toolbox/Luenberger Toolbox/Luenberger Toolbox.prj" location="/home/nils/Documents/Work/PhD work/Projects/Collaborations/Industrial secondment/Background work/Toolbox/Luenberger Toolbox" name="Luenberger Toolbox" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Luenberger Observer Toolbox</param.appname>
+    <param.authnamewatermark>Nils Wilhelmsen</param.authnamewatermark>
+    <param.email>nils.wilhelmsen@mines-paristech.fr</param.email>
+    <param.company>Armines</param.company>
+    <param.summary>Toolbox for implementing Luenberger observers.</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}/Luenberger Observer Toolbox.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>56653ade-a9a1-412b-b36a-c2151da076dd</param.guid>
+    <param.exclude.filters />
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide>${PROJECT_ROOT}/doc/GettingStarted.mlx</param.getting.started.guide>
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>true</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start />
+    <param.release.end />
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.docs />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.start />
+      <param.release.end />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/312b548f4cf67062b96e77ab5cc77736.jpg</file>
+      <file>${PROJECT_ROOT}/Contents.m</file>
+      <file>${PROJECT_ROOT}/Examples</file>
+      <file>${PROJECT_ROOT}/computeLFromLuenberger.m</file>
+      <file>${PROJECT_ROOT}/computeLinearLuenbergerG.m</file>
+      <file>${PROJECT_ROOT}/computeLinearLuenbergerT.m</file>
+      <file>${PROJECT_ROOT}/computeNonlinearLuenbergerTnn.m</file>
+      <file>${PROJECT_ROOT}/demos.xml</file>
+      <file>${PROJECT_ROOT}/doc</file>
+      <file>${PROJECT_ROOT}/estimateLinearXLuenberger.m</file>
+      <file>${PROJECT_ROOT}/estimateLinearXOutputError.m</file>
+      <file>${PROJECT_ROOT}/example.m</file>
+      <file>${PROJECT_ROOT}/generateCellEigComplexReal.m</file>
+      <file>${PROJECT_ROOT}/generateLuenbergerD.m</file>
+      <file>${PROJECT_ROOT}/performMultipleLuenbergerSimulations.m</file>
+      <file>${PROJECT_ROOT}/splitEigsComplexReal.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="Luenberger Observer Toolbox.mltbx" optional="false">/home/nils/Documents/Work/PhD work/Projects/Collaborations/Industrial secondment/Background work/Toolbox/Luenberger Toolbox/Luenberger Observer Toolbox.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2020b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.4.0-193-lowlatency</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
